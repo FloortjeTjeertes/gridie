@@ -91,7 +91,7 @@ footer {
       "t3  t4"
       "t3  t5"
       "afb t6"
-      "afb t7"
+      "t7 aside"
       "t8 aside"
       "t9 aside"
       "t10 aside"
@@ -152,5 +152,37 @@ footer {
 
   footer {
     grid-area: voet;
+  }
+
+  h1 {
+    font-size: 2.6em;
+  }
+
+  .grapjes_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grapjes_article h3 {
+    grid-column: span 2;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  body {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "kop kop kop"
+      "t1  t2 afb"
+      "t3  t4 afb"
+      "t3  t5 afb"
+      "aside t6 t6"
+      "aside t7 t8"
+      "aside  t9 t10"
+      "aside voet voet";
   }
 }
