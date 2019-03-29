@@ -92,9 +92,9 @@ footer {
       "t3  t5"
       "afb t6"
       "afb t7"
-      "t8 asided"
-      "t9 asided"
-      "t10 asided"
+      "t8 aside"
+      "t9 aside"
+      "t10 aside"
       "voet voet";
   }
 
@@ -107,7 +107,7 @@ footer {
   }
 
   .kinker {
-    grid-area: t2; 
+    grid-area: t2;
   }
 
   .ziekenhuis {
@@ -122,27 +122,27 @@ footer {
     grid-area: afb
   }
 
-  .geen-uitstel {
+  .biechten {
     grid-area: t5
   }
 
-  .planning {
+  .soldaten {
     grid-area: t6;
   }
 
-  .opruimen {
+  .dieren {
     grid-area: t7;
   }
 
-  .aandacht {
+  .belg {
     grid-area: t8;
   }
 
-  .centraal {
+  .ambtenaar {
     grid-area: t9;
   }
 
-  .afwisseling {
+  .boerderij {
     grid-area: t10;
   }
 
